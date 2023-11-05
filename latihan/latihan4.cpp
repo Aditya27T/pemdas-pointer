@@ -4,10 +4,10 @@
 using namespace std;
 
 int main (){
-    void tunjuk;
+    void *tunjuk;
 
     double n_double = 25.5;
-    char n_char[1] = 'A';
+    char n_char = 'A';
 
     tunjuk = &n_double;
     cout << "Nilai yang ditunjuk adalah : " << *(double *)tunjuk << endl;
